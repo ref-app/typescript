@@ -11,7 +11,7 @@ Package.registerBuildPlugin({
   use: ['refapp:typescript-compiler'],
   sources: ['plugin.js'],
   npmDependencies: {
-    typescript: process.env.TYPESCRIPT_EXTERNAL_PATH ? 'file://' + process.env.TYPESCRIPT_EXTERNAL_PATH : '3.8.2',
+    typescript: process.env.TYPESCRIPT_EXTERNAL_PATH ? 'file://' + process.env.TYPESCRIPT_EXTERNAL_PATH : '3.8.3',
   },
 });
 
