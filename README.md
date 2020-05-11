@@ -25,11 +25,13 @@ Default compiler options as JSON:
 
 ## Package Structure
 
-This package uses (directly or indirectly) another package which is worth mentioning:
+This package depends on another package for the bulk of its work:
 
-[typescript-compiler](https://github.com/adornis/typescript-compiler) - exports a Meteor TypeScript compiler that implements Meteor compiler API to compile TypeScript source code incrementally on file changes.
+[typescript-compiler](https://github.com/ref-app/typescript-compiler) - exports a Meteor TypeScript compiler that implements Meteor compiler API to compile TypeScript source code incrementally on file changes.
 
 ## Credits
+
+Refapp took over this repo after Adornis abandoned it in 2020. Here are the previous credits:
 
 Thanks @barbatus for barbatus:typescript, which this package is based on, even as far as copying some parts.
 Adornis doesn't claim any ownership of this code, we have merely taken over the repository after fruitless attempts to contact barbatus.
