@@ -1,6 +1,6 @@
 Package.describe({
   name: 'refapp:typescript',
-  version: '0.9.17',
+  version: '0.9.18',
   summary: 'TypeScript for Meteor, based on barbatus:typescript',
   git: 'https://github.com/ref-app/typescript',
   documentation: 'README.md',
@@ -19,7 +19,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.4.1');
 
   api.use('isobuild:compiler-plugin@1.0.0');
-  api.use('refapp:typescript-compiler@0.12.17');
+  api.use('refapp:typescript-compiler@0.12.18');
 
   api.imply('modules@0.11.6');
 });
